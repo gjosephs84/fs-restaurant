@@ -16,7 +16,7 @@ const GetAccount = () => {
         username
         orders {
             dishes
-            amount
+            
         }
         }
     }

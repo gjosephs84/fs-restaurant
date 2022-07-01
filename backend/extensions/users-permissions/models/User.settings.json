@@ -60,6 +60,7 @@
       "configurable": false
     },
     "orders": {
+      "via": "user",
       "collection": "order"
     }
   }

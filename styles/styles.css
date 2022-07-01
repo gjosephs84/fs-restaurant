@@ -1,0 +1,123 @@
+.below-header {
+    position: absolute;
+    top: 250px;
+}
+
+.search-box {
+    position: absolute;
+    width: 100vw;
+    height: 250px;
+    left: 0;
+    background-image: url("../images/salad.png");
+    background-position: right;
+    background-color: aqua;
+}
+
+.page-header {
+    position: absolute;
+    width: 100vw;
+    height: 250px;
+    left: 0;
+    background-image: url("../images/salad.png");
+    background-position: right;
+    background-color: aqua;
+}
+
+.header-text {
+    position: absolute;
+    width: 90vw;
+    left: 5vw;
+    top: 160px;
+    margin: auto;
+    color: white
+}
+
+.card-head {
+    background-color: rgb(61, 111, 149);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.search {
+    position: absolute;
+    width: 90vw;
+    left: 5vw;
+    top: 130px;
+    margin: auto;
+    
+}
+.search h1 {
+    color: white;
+}
+
+.search h2 {
+    color: white;
+}
+
+.restaurant-results {
+    position: absolute;
+    top: 350px;
+}
+
+.restaurant-info {
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: black;
+    max-width: max-content;
+    padding: 10px;
+}
+
+.button-full {
+    width:100%;
+    background-color: rgb(61, 111, 149);
+}
+
+.restaurant-card {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.dish-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-weight: bold;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.header {
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.order-history {
+    background-color: white;
+    margin-top: 20px;
+    border-style: dashed;
+    
+}
+
+.order-number {
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.order-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(205, 225, 237);
+    padding: 10px;
+}
+
+.dish-name {
+    grid-column-start: span 2;
+}
+
+.dish-description {
+    grid-column-start: span 3;
+}

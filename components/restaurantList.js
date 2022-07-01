@@ -1,8 +1,6 @@
 import { gql, useQuery } from '@apollo/client';
-import Dishes from "./dishes"
 import { useContext, useState } from 'react';
 import Router from "next/router";
-import Link from 'next/link';
 
 
 import AppContext from "./context"
@@ -69,11 +67,6 @@ function RestaurantList(props) {
   }) || [];
 
   let restId = searchQuery[0] ? searchQuery[0].id : null;
-
-  // define renderer for Dishes (to be used later)
-  const renderDishes = (restaurantID) => {
-    return (<Dishes restId={restaurantID}> </Dishes>)
-  };
 
   // Return some search results!
 

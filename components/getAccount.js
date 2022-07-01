@@ -1,5 +1,4 @@
-import { ApolloProvider, ApolloClient, HttpLink, InMemoryCache, gql, useQuery } from '@apollo/client';
-import { useStripe } from '@stripe/react-stripe-js';
+import { gql, useQuery } from '@apollo/client';
 import { useContext } from 'react';
 import AppContext from './context';
 

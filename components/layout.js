@@ -1,7 +1,7 @@
 /* /components/Layout.js */
 
 import React, { useState, useContext } from "react";
-import { ApolloProvider, ApolloClient, HttpLink, InMemoryCache, gql, useQuery } from '@apollo/client';
+import { ApolloProvider, ApolloClient, HttpLink, InMemoryCache } from '@apollo/client';
 import Head from "next/head";
 import Link from "next/link";
 import { Container, Nav, NavItem } from "reactstrap";

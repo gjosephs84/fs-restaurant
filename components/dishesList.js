@@ -1,9 +1,5 @@
 import { gql, useQuery } from '@apollo/client';
-import Dishes from "./dishes"
 import { useContext, useState } from 'react';
-import Router from "next/router";
-import Link from 'next/link';
-
 
 import AppContext from "./context"
 import {

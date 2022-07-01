@@ -5,14 +5,13 @@
 */
 
 import { ApolloProvider, ApolloClient, HttpLink, InMemoryCache, gql, useQuery } from '@apollo/client';
-import Dishes from '../../components/dishes';
+
 import { useContext, useState } from 'react';
 import {useRouter} from 'next/router';
 import Router from 'next/router';
 import { InputGroup, InputGroupAddon,Input} from "reactstrap";
 import DishesList from '../../components/dishesList';
 import Cart from '../../components/cart';
-import identifyRestaurant from '../../components/identifyRestaurant';
 import AppContext from '../../components/context';
 import Button from 'reactstrap/lib/Button';
 
@@ -68,10 +67,7 @@ export default function Restaurant() {
     
     
 
-    // Render dishes
-    const renderDishes = (restaurantID) => {
-        return (<Dishes restId={restaurantID}> </Dishes>)
-      };
+   
     
     return (
     

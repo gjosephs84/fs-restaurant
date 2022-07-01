@@ -5,7 +5,6 @@
 */
 
 import { ApolloProvider, ApolloClient, HttpLink, InMemoryCache, gql, useQuery } from '@apollo/client';
-import Dishes from '../../components/dishes';
 import { useContext, useState } from 'react';
 import {useRouter} from 'next/router';
 import Router from 'next/router';
@@ -65,13 +64,6 @@ export default function Restaurant() {
     const link = new HttpLink({ uri: `${API_URL}/graphql`})
     const cache = new InMemoryCache()
     const client = new ApolloClient({link,cache});
-    
-    
-
-    // Render dishes
-    const renderDishes = (restaurantID) => {
-        return (<Dishes restId={restaurantID}> </Dishes>)
-      };
     
     return (
     
